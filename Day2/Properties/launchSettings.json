@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Day2": {
+      "commandName": "Project",
+      "commandLineArgs": "12\r\n13\r\n14\r\n"
+    }
+  }
+}
