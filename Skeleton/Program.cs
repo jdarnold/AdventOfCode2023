@@ -11,11 +11,9 @@ class Program
             // Read all lines from the file
             string[] lines = File.ReadAllLines(filePath);
 
-            // Display the content
-            Console.WriteLine("File Content:");
             foreach (string line in lines)
             {
-                Console.WriteLine(line);
+                string[] data = line.Split(' ', StringSplitOptions.RemoveEmptyEntries);
             }
         }
         else
@@ -24,3 +22,9 @@ class Program
         }
     }
 }
+
+//I just completed "" - Day  - Advent of Code 2023 https://adventofcode.com/2023/day/5 #AdventOfCode 
+
+//Please join my private leaderboard !The code is 335841 - f28d1b57 - it is absolutely not competitive!
+
+//https://github.com/jdarnold/AdventOfCo
