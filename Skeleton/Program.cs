@@ -3,7 +3,7 @@ class Program
 {
     static void Main()
     {
-        string filePath = "../../../input.txt";
+        string filePath = "../../../input_test.txt";
 
         // Check if the file exists
         if (File.Exists(filePath))
@@ -23,8 +23,10 @@ class Program
     }
 }
 
-//I just completed "" - Day  - Advent of Code 2023 https://adventofcode.com/2023/day/5 #AdventOfCode 
+/*
+I've completed "" - Day  - Advent of Code 2023 https://adventofcode.com/2023/day/ #AdventOfCode 
 
-//Please join my private leaderboard !The code is 335841 - f28d1b57 - it is absolutely not competitive!
+Please join my private leaderboard! The code is 335841-f28d1b57 - it is absolutely not competitive!
 
-//https://github.com/jdarnold/AdventOfCo
+https://github.com/jdarnold/AdventOfCode2023
+*/
